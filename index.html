@@ -1,20 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Meine GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-        h1 {
-            color: #0066cc;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Terminal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello world! 👋</h1>
-    <p>GitHub Pages.</p>
+    <div class="terminal">
+        <div class="terminal-header">
+            <span class="terminal-btn red"></span>
+            <span class="terminal-btn yellow"></span>
+            <span class="terminal-btn green"></span>
+            <span class="terminal-title">root@hacker:~</span>
+        </div>
+        <div class="terminal-body">
+            <p class="glitch" data-text="> Welcome, Agent...">> Welcome, Agent...</p>
+            <p>> Initializing System...</p>
+            <p class="typewriter">> Access Granted.</p>
+        </div>
+    </div>
+
+    <section class="hidden">
+        <h2 class="glitch" data-text="SECURE SERVER">SECURE SERVER</h2>
+        <p>This system is protected. Unauthorized access is prohibited.</p>
+    </section>
+
+    <section class="hidden">
+        <h2 class="glitch" data-text="MISSION FILES">MISSION FILES</h2>
+        <div class="grid">
+            <div class="card hidden">
+                <h3>TOP SECRET</h3>
+                <p class="hover-glow">Hover to decrypt</p>
+            </div>
+            <div class="card hidden">
+                <h3>CLASSIFIED</h3>
+                <p class="hover-glow">Hover to decrypt</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
